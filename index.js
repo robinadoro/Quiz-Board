@@ -11,5 +11,14 @@ function myButton(){
      if (currentAnswer3==8){score+=20};
      if (currentAnswer4==11){score+=20};
      if (currentAnswer5==14){score+=20};
-    result.textContent=score;
-}
+  
+     if (score==100){
+         result.textContent="Your score is 100%. Excellently Passed";
+     } else if(score==80){
+         result.textContent="Your score is 80%. Excelently Passed";
+     }else if(score==60){
+        result.textContent="Your score is 60%. Fairly Passed";
+    }else {
+        result.textContent="Your score is below Passmark. Poor Score. Retake Test";
+    }
+} 
