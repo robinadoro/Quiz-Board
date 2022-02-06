@@ -4,9 +4,31 @@
 h1{
     text-align: center;
     border: 2px solid grey;
+    border: none;
     padding: 20px;
     background-image: linear-gradient(to bottom, #002dfd, #7264ff, #a797ff, #d4cbff, #ffffff);
 }
 #quiz {
     padding-left: 150px;
+
+}
+.low_button{
+    padding: 30px;
+}
+.submit_button input{
+    padding: 20px;
+    color: #ffffff;
+    background-color: #002dfd;
+    border-radius: 10px;
+    height: 60px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+#text{
+    color: red;
+    padding: 20px;
+    padding-left: 150px;
+    font-weight: bolder;
+    font-size: large;
 }
