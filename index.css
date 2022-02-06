@@ -4,4 +4,9 @@
 h1{
     text-align: center;
     border: 2px solid grey;
+    padding: 20px;
+    background-image: linear-gradient(to bottom, #002dfd, #7264ff, #a797ff, #d4cbff, #ffffff);
+}
+#quiz {
+    padding-left: 150px;
 }
