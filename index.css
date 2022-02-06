@@ -1,18 +1,19 @@
-* {
-    padding-left: 200px;
-    padding-right: 200px;
-}
+
 h1{
     text-align: center;
     border: 2px solid grey;
     border: none;
-    padding: 5px;
+    padding: 3px;
     background-image: linear-gradient(to bottom, #002dfd, #7264ff, #a797ff, #d4cbff, #ffffff);
 }
-#quiz {
-    background-image: linear-gradient(to bottom, #002dfd, #7264ff, #a797ff, #d4cbff, #ffffff);
-
-
+body {
+    border: 1px solid black;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+#quiz{
+    margin-left: 100px;
+    
 }
 
 .submit_button input{
