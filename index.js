@@ -19,7 +19,7 @@ function myButton(){
      }else if(score==60){
         result.textContent="Your score is 60%. Fairly Passed";
     }else {
-        result.textContent="Your score is below Passmark. Poor Score. Retake Test";
+        result.textContent="Poor Score. Retake Test";
     }
     document.getElementById("quiz").reset();
 } 
