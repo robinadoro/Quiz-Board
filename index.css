@@ -10,6 +10,8 @@ h1{
 }
 #quiz {
     padding-left: 150px;
+    background-image: linear-gradient(to bottom, #002dfd, #7264ff, #a797ff, #d4cbff, #ffffff);
+
 
 }
 
