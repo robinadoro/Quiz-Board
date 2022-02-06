@@ -21,4 +21,5 @@ function myButton(){
     }else {
         result.textContent="Your score is below Passmark. Poor Score. Retake Test";
     }
+    document.getElementById("quiz").reset();
 } 
