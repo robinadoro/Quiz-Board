@@ -1,11 +1,14 @@
 h1{
     text-align: center;
     border: 1px solid black;
+    border: none;
     background-color: #00BFFF;
+    padding: 10px;
+    margin-bottom: -16px;
     
 }
 body {
-    border: 1px solid black;
+  
     padding-left: 400px;
     margin-right: 400px;
    
@@ -13,11 +16,17 @@ body {
 }
 #quiz{
     margin-left: 250px;
+    padding: 10px;
     
     
 }
+#quiz p{
+    padding: 5px;
+    font-size: large;
+}
 .form_quiz{
     background-color: #87CEEB;
+    
 
 }
 
