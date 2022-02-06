@@ -12,23 +12,31 @@ h1{
     padding-left: 150px;
 
 }
-.low_button{
-    padding: 30px;
-}
+
 .submit_button input{
     padding: 20px;
     color: #ffffff;
     background-color: #002dfd;
     border-radius: 10px;
+    border: none;
     height: 60px;
     font-weight: bold;
     font-size: 20px;
     text-align: center;
 }
 #text{
-    color: red;
+    color: white;
+    background-color: red;
     padding: 20px;
-    padding-left: 150px;
+    padding-left: 0px;
     font-weight: bolder;
     font-size: large;
+    border: 1px solid grey;
+    margin-right: 1250px;
+    margin-left: 150px;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
 }
