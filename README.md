@@ -13,7 +13,7 @@
 
 ## Description
 <p>This is  a is a project for a simple student exam site that icooperates the use of HTML, CSS and JS
-This is the design part https://www.figma.com/file/fKGAz06cCQC8ECyR5A5PdN/Quiz-Board?node-id=0%3A1</p>
+This is the design template done using figma https://www.figma.com/file/fKGAz06cCQC8ECyR5A5PdN/Quiz-Board?node-id=0%3A1</p>
 
 
 ## Installation
