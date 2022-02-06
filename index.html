@@ -4,18 +4,51 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="index.css">
+        <script src="index.js"></script>
         <title>Quick Quiz</title>
     </head>
     <body>
         <h1>JS Recap Quiz</h1>
         <form name="first" id="quiz" >
-            <div class="quiz">
+            <div>
                 <p>1. What tool do programmers use to record output in Javascript? </p>
-                <p> <input type="radio" name="quiz1" value="console"> A: Console</p>
-                <p> <input type="radio" name="quiz1" value="code"> B: Vs Code</p>
-                <p> <input type="radio" name="quiz1" value="Notepad"> C: Notepad</p>
+                <p> <input type="radio" name="quiz1" value="1"> A: Console</p>
+                <p> <input type="radio" name="quiz1" value="2"> B: Vs Code</p>
+                <p> <input type="radio" name="quiz1" value="3"> C: Notepad</p>
             </div>
+            <div>
+                <p>2. What does this code do, alert("coding is fun");? </p>
+                <p> <input type="radio" name="quiz2" value="4"> A: Bring up a popup of coding is fun</p>
+                <p> <input type="radio" name="quiz2" value="5"> B: Display a red alert</p>
+                <p> <input type="radio" name="quiz2" value="6"> C: Alert you to code</p>
+            </div>
+            <div>
+                <p>3. Which data type is numbers? </p>
+                <p> <input type="radio" name="quiz3" value="7"> A: console.log("coding is fun")</p>
+                <p> <input type="radio" name="quiz3" value="8"> B: console.log(13)</p>
+                <p> <input type="radio" name="quiz3" value="9"> C: console.log("374")</p>
+            </div>
+            <div>
+                <p>4. The symbol % (also called modulus) shows? </p>
+                <p> <input type="radio" name="quiz4" value="10"> A: Percentage</p>
+                <p> <input type="radio" name="quiz4" value="11"> B: Remainder after division</p>
+                <p> <input type="radio" name="quiz4" value="12"> C: Result after division</p>
+            </div>
+            <div>
+                <p>5. Which symbol is used to assign a variable? </p>
+                <p> <input type="radio" name="quiz5" value="13"> A: .</p>
+                <p> <input type="radio" name="quiz5" value="14"> B: =</p>
+                <p> <input type="radio" name="quiz5" value="15"> C: -</p>
+            </div>
+            <input type="button" value="submit" id="submit" onclick="myButton()">
         </form>
-        <input type="button" value="submit" onclick="myButton">
+        <div class="low_button">
+            <div>
+                <p> Your Score is</p>
+            </div>
+            <div id="text"></div>
+        </div>
+       
+        
     </body>
 </html>
